@@ -47,6 +47,20 @@ h2 {
   margin: 0;
 }
 
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 1.75em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  .logo {
+    width: 60px;
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
