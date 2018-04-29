@@ -2,4 +2,4 @@
 permalink: /committees/third-reich/
 title: The Third Reich
 ---
-Pending
+- Annexation of Great Britain and Formation of Axis Powers
