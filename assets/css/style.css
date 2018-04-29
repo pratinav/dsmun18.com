@@ -1,0 +1,738 @@
+---
+layout: none
+---
+/**
+ * Font declarations
+ */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v10/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2)
+  format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+  url(https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
+  url(https://fonts.gstatic.com/s/sourcesanspro/v10/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(/assets/images/bg.jpg) center fixed;
+  background-size: cover;
+  color: #222222;
+  font: 16px "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+a {
+  color: #1086d6;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.45;
+  margin-bottom: 1.5em;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2em;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat", "Roboto", "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.17em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+h3::after {
+  border: 1px solid #1086d6;
+  border-style: inset;
+  content: '';
+  display: block;
+  margin: 1rem 0;
+  position: relative;
+  width: 30px;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+ul.naked {
+  list-style-type: none;
+}
+
+li {
+  line-height: 1.45;
+  margin-bottom: 1em;
+}
+
+.btn {
+  border: 1px solid #1086d6;
+  border-radius: 0.25em;
+  color: #1086d6;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em !important;
+  padding: 0.65em 1.5em;
+}
+
+.buttons-list {
+  list-style: none;
+}
+
+.buttons-list li {
+  display: inline;
+}
+
+.clear-header {
+  margin-top: 10em !important;
+}
+
+nav {
+  left: auto;
+  position: absolute;
+  right: 3em;
+  top: 2em;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  line-height: inherit;
+  margin: 0;
+}
+
+.attention::after {
+  background: red;
+  border-radius: 50%;
+  content: '';
+  display: inline-block;
+  height: 12px;
+  position: relative;
+  top: -4px;
+  width: 12px;
+  z-index: -1;
+}
+
+nav a {
+  color: white;
+  font-family: "Montserrat", "Roboto", "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-left: 2em;
+  padding-bottom: 2.5px;
+  text-transform: uppercase;
+}
+
+.nav-toggle {
+  display: none;
+  position: fixed;
+  right: 1em;
+  top: 2em;
+  z-index: 2;
+}
+
+.nav-line {
+  background: white;
+  display: block;
+  height: 2.5px;
+  margin-bottom: 4px;
+  width: 20px;
+}
+
+.nav-open {
+  transform: translateX(0);
+}
+
+@media only screen and (max-width: 950px) {
+  .nav-toggle {
+    display: inline-block;
+  }
+
+  nav {
+    background: #383838;
+    display: block;
+    height: 100%;
+    max-width: 180px;
+    padding-top: 4em;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateX(100%);
+    transition: transform 200ms ease-in-out;
+    width: 100%;
+    z-index: 1;
+  }
+
+  nav li a {
+    display: block;
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    letter-spacing: initial;
+    margin-left: 0;
+    padding: 1em 0 1em 1em;
+    text-transform: none;
+    transition: background 200ms ease-in-out;
+  }
+
+  nav li a:hover {
+    background: #444444
+  }
+
+  .attention::after {
+    display: none;
+  }
+}
+
+.nav-wrapper {
+  color: white;
+  position: relative;
+}
+
+.logo {
+  height: auto;
+  left: 2em;
+  position: absolute;
+  top: 1em;
+  width: 70px;
+}
+
+.panel {
+  background: rgba(255, 255, 255, 0.825);
+  margin-bottom: 4em;
+  margin-top: 4em;
+  padding: 4em;
+  width: 92.5%;
+}
+
+.feature:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.feature-item {
+  float: left;
+  margin-right: 1%;
+  padding: 3em 1.5em;
+  text-align: center;
+  width: 32.5%;
+}
+
+.feature-item:last-child {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .feature-item {
+    margin-bottom: 1em;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .feature-item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.feature-item hr {
+  margin: 1em auto;
+}
+
+.feature-item svg {
+  height: auto;
+  margin-bottom: 1em;
+  width: 2em;
+}
+
+.feature-item p {
+  color: #666666;
+}
+
+.feature-item path {
+  fill: #1086d6;
+}
+
+.grid-item {
+  cursor: pointer;
+  float: left;
+  height: 176px;
+  position: relative;
+  width: 33%;
+}
+
+@media only screen and (max-width: 960px) {
+  .grid-item {
+    height: 256px;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .grid-item {
+    height: 256px;
+    width: 100%;
+  }
+}
+
+#committees .grid-item:after {
+  align-items: center;
+  background: rgba(34, 34, 34, 0.8);
+  bottom: 0;
+  color: #cccfd2;
+  display: flex;
+  font-family: "Montserrat", "Roboto", "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
+  justify-content: center;
+  left: 0;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+  opacity: 1;
+  padding: 0 0.25em;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  transition: all 200ms;
+}
+
+#committees .grid-item:hover:after {
+  opacity: 0.5;
+}
+
+.grid:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/**
+ * Footer styles
+ */
+
+footer {
+  background: #222222;
+  bottom: 0;
+  clear: both;
+  color: white;
+  padding: 5em 0;
+  width: 100%;
+  position: initial;
+}
+
+footer.anchor {
+  position: absolute;
+}
+
+footer a {
+  color: #40c4ff;
+}
+
+footer .container {
+  position: relative;
+  width: 85%;
+}
+
+footer .social {
+  bottom: 0;
+  margin-top: 1em;
+  position: absolute;
+  right: 0;
+}
+
+footer .social a {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+footer .social a:first-child {
+  margin-left: 0;
+}
+
+footer .social svg {
+  height: 1em;
+  opacity: 0.5;
+  transition: opacity 200ms;
+  width: 1em;
+}
+
+footer .social svg:hover {
+  opacity: 1;
+}
+
+footer .social svg path {
+  fill: white;
+}
+
+/**
+ * Home styles
+ */
+
+html#Home, html#Home body {
+  height: 100%;
+}
+
+.landing {
+  color: white;
+  height: 100%;
+}
+
+.landing .hero-intro {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.landing .hero-intro h1 {
+  line-height: 1.1;
+}
+
+blockquote {
+  font-family: "Georgia", serif;
+  font-style: italic;
+  margin-top: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+#committees a:nth-child(1)  .grid-item {
+  background: url(/assets/images/committee_thumbs/disec.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(1) .grid-item:after {
+  content: "disarmament and international security committee";
+}
+
+#committees a:nth-child(2)  .grid-item {
+  background: url(/assets/images/committee_thumbs/ecosoc.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(2) .grid-item:after {
+  content: "United Nations Economic and Social Council";
+}
+
+#committees a:nth-child(3)  .grid-item {
+  background: url(/assets/images/committee_thumbs/eic.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(3) .grid-item:after {
+  content: "Board of Control: East India Company";
+}
+
+#committees a:nth-child(4)  .grid-item {
+  background: url(/assets/images/committee_thumbs/iaea.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(4) .grid-item:after {
+  content: "International Atomic Energy Agency";
+}
+
+#committees a:nth-child(5)  .grid-item {
+  background: url(/assets/images/committee_thumbs/ipc.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(5) .grid-item:after {
+  content: "International Press Corps";
+}
+
+#committees a:nth-child(6)  .grid-item {
+  background: url(/assets/images/committee_thumbs/ls.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(6) .grid-item:after {
+  content: "Lok Sabha";
+}
+
+#committees a:nth-child(7)  .grid-item {
+  background: url(/assets/images/committee_thumbs/scrt.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(7) .grid-item:after {
+  content: "Special convention on religion and terror";
+}
+
+#committees a:nth-child(8)  .grid-item {
+  background: url(/assets/images/committee_thumbs/specpol.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(8) .grid-item:after {
+  content: "special political and decolonization committee";
+}
+
+#committees a:nth-child(9)  .grid-item {
+  background: url(/assets/images/committee_thumbs/third-reich.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(9) .grid-item:after {
+  content: "The Third Reich";
+}
+
+#committees a:nth-child(10)  .grid-item {
+  background: url(/assets/images/committee_thumbs/unhrc.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(10) .grid-item:after {
+  content: "united nations human rights council";
+}
+
+#committees a:nth-child(11) .grid-item {
+  background: url(/assets/images/committee_thumbs/unodc.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(11) .grid-item:after {
+  content: "united nations office on drugs and crime";
+}
+
+#committees a:nth-child(12)  .grid-item {
+  background: url(/assets/images/committee_thumbs/unsc.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(12) .grid-item:after {
+  content: "united nations security council";
+}
+
+/**
+ * Gallery styles
+ */
+
+#gallery .grid-item {
+  cursor: default;
+}
+
+/* Set backgrounds for all images in '/assets/images/gallery' */
+/* Ugly formatting to avoid newlines in generated stylesheet */
+/* Only .jpg(case sensitive) images will turn up */
+
+{% assign counter = 0 %}{% for image in site.static_files %}{% if image.path contains 'assets/images/gallery' and image.path contains '.jpg' %}{% assign counter = counter | plus: 1 %}
+#gallery .grid-item:nth-child({{ counter }}) {
+  background: url({{ image.path }}) center;
+  background-size: cover;
+}
+{% endif %}{% endfor %}
+
+/**
+ * Contact styles
+ */
+
+#contact form {
+  max-width: 600px;
+  margin-bottom: 1em;
+}
+
+#contact form input,
+#contact form textarea {
+  background: none;
+  border: none;
+  border-bottom: 1.5px solid #1086d6;
+  border-radius: 0;
+  color: black;
+  display: block;
+  font: inherit;
+  margin-bottom: 2em;
+  opacity: 0.70;
+  padding: 0.5em 0;
+  transition: opacity 200ms;
+}
+
+#contact form input:focus,
+#contact form textarea:focus {
+  opacity: 1;
+  outline: none;
+}
+
+#contact form input:hover,
+#contact form input:active,
+#contact form textarea:hover,
+#contact form textarea:active {
+  opacity: 1;
+}
+
+#contact form input {
+  float: left;
+  width: 47.5%;
+}
+
+#contact form input[name="name"] {
+  margin-right: 5%;
+}
+
+#contact form textarea {
+  height: 100px;
+  width: 100%;
+}
+
+#contact form .btn {
+  border: 1px solid #1086d6;
+  border-radius: 0.25em;
+  color: #1086d6;
+  cursor: pointer;
+  display: inline-block;
+  float: none;
+  padding: 0.5em 1.5em;
+  width: auto;
+}
+
+/**
+ * Committee page styles
+ */
+
+#committee li {
+  margin-bottom: 0.5em;
+}
+
+#committee p + ul {
+    margin-bottom: 1.5em;
+}
+
+#deputy-chairpersons {
+  margin-top: 2em;
+}
+
+#deputy-chairpersons + ul {
+  list-style-type: none;
+}
+
+.chair_img {
+  float: right;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  max-width: 400px;
+  width: 100%;
+}
+
+#about_others .chair_img {
+  display: inline-block;
+  float: none;
+  margin: 0;
+  max-width: none;
+  width: 48%;
+}
+
+#about_others .chair_img:first-child {
+  margin-right: 2%;
+}
+
+@media only screen and (max-width: 800px) {
+  #about_others .chair_img {
+    width: 100%;
+  }
+
+  #about_others .chair_img:first-child {
+    margin-bottom: 1em;
+    margin-right: 0;
+  }
+}
+
+.chair_img img {
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 416px) {
+  .chair_img {
+    margin-left: 0;
+  }
+}
+
+.chair_img figcaption {
+  color: gray;
+  margin: 0.5em 0;
+  text-align: center;
+}
+
+/**
+ * Countdown styles
+ */
+
+@media screen and (max-width: 631px) {
+  .landing #countdown {
+    font-size: 1.5rem;
+    top: 65%;
+  }
+}
+
+@media screen and (max-width: 328px) {
+  .landing #countdown {
+    display: none;
+  }
+}
+
+#countdown {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 100;
+  position: absolute;
+  text-align: center;
+  top: 57%;
+  width: 100%;
+}
+
+#countdown > div {
+  display: inline-block;
+  padding: 10px;
+}
+
+#countdown div > span:first-child {
+  display: inline-block;
+  padding: 15px;
+}
+
+#countdown .small {
+  display: block;
+  font-size: 1rem;
+  padding-top: 0.25rem;
+}

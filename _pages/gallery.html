@@ -1,0 +1,15 @@
+---
+layout: default
+permalink: /gallery/
+title: Gallery
+description: A gallery of pictures from previous DSMUNs
+---
+<main id="gallery" class="clear-header container panel">
+  <h3>gallery</h3>
+  <div class="grid">
+    <!-- Only .jpg(case sensitive) images will show up -->
+    {% for image in site.static_files %}{% if image.path contains 'assets/images/gallery' and image.path contains '.jpg' %}
+    <div class="grid-item"></div>
+    {% endif %}{% endfor %}
+  </div>
+</main>
