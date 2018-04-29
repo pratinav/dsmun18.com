@@ -2,4 +2,4 @@
 permalink: /committees/disec/
 title: Disarmament and International Security Committee
 ---
-Pending
+- Review of the Non-Proliferation Treaty with special disclosure to full disclosure
