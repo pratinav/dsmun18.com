@@ -1,7 +1,4 @@
 TODO
 ====
-- Contact page phone numbers
 - Gallery page pics
-- Agendas pending for: hrc, disec, scrt, third reich
 - Home page feature-items
-- Is there a new home page write-up?
