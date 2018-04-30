@@ -434,111 +434,111 @@ blockquote {
 }
 
 #committees a:nth-child(1)  .grid-item {
-  background: url(/assets/images/committee_thumbs/disec.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(1) .grid-item:after {
-  content: "disarmament and international security committee";
-}
-
-#committees a:nth-child(2)  .grid-item {
-  background: url(/assets/images/committee_thumbs/ecosoc.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(2) .grid-item:after {
-  content: "United Nations Economic and Social Council";
-}
-
-#committees a:nth-child(3)  .grid-item {
-  background: url(/assets/images/committee_thumbs/eic.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(3) .grid-item:after {
-  content: "Board of Control: East India Company";
-}
-
-#committees a:nth-child(4)  .grid-item {
-  background: url(/assets/images/committee_thumbs/iaea.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(4) .grid-item:after {
-  content: "International Atomic Energy Agency";
-}
-
-#committees a:nth-child(5)  .grid-item {
-  background: url(/assets/images/committee_thumbs/ipc.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(5) .grid-item:after {
-  content: "International Press Corps";
-}
-
-#committees a:nth-child(6)  .grid-item {
-  background: url(/assets/images/committee_thumbs/ls.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(6) .grid-item:after {
-  content: "Lok Sabha";
-}
-
-#committees a:nth-child(7)  .grid-item {
-  background: url(/assets/images/committee_thumbs/scrt.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(7) .grid-item:after {
-  content: "Special convention on religion and terror";
-}
-
-#committees a:nth-child(8)  .grid-item {
-  background: url(/assets/images/committee_thumbs/specpol.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(8) .grid-item:after {
-  content: "special political and decolonization committee";
-}
-
-#committees a:nth-child(9)  .grid-item {
-  background: url(/assets/images/committee_thumbs/third-reich.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(9) .grid-item:after {
-  content: "The Third Reich";
-}
-
-#committees a:nth-child(10)  .grid-item {
-  background: url(/assets/images/committee_thumbs/unhrc.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(10) .grid-item:after {
-  content: "united nations human rights council";
-}
-
-#committees a:nth-child(11) .grid-item {
-  background: url(/assets/images/committee_thumbs/unodc.jpg) center;
-  background-size: cover;
-}
-
-#committees a:nth-child(11) .grid-item:after {
-  content: "united nations office on drugs and crime";
-}
-
-#committees a:nth-child(12)  .grid-item {
   background: url(/assets/images/committee_thumbs/unsc.jpg) center;
   background-size: cover;
 }
 
-#committees a:nth-child(12) .grid-item:after {
+#committees a:nth-child(1) .grid-item:after {
   content: "united nations security council";
+}
+
+#committees a:nth-child(2)  .grid-item {
+  background: url(/assets/images/committee_thumbs/disec.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(2) .grid-item:after {
+  content: "disarmament and international security committee";
+}
+
+#committees a:nth-child(3)  .grid-item {
+  background: url(/assets/images/committee_thumbs/ecosoc.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(3) .grid-item:after {
+  content: "United Nations Economic and Social Council";
+}
+
+#committees a:nth-child(4)  .grid-item {
+  background: url(/assets/images/committee_thumbs/eic.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(4) .grid-item:after {
+  content: "Board of Control: East India Company";
+}
+
+#committees a:nth-child(5)  .grid-item {
+  background: url(/assets/images/committee_thumbs/iaea.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(5) .grid-item:after {
+  content: "International Atomic Energy Agency";
+}
+
+#committees a:nth-child(6)  .grid-item {
+  background: url(/assets/images/committee_thumbs/ipc.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(6) .grid-item:after {
+  content: "International Press Corps";
+}
+
+#committees a:nth-child(7)  .grid-item {
+  background: url(/assets/images/committee_thumbs/ls.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(7) .grid-item:after {
+  content: "Lok Sabha";
+}
+
+#committees a:nth-child(8)  .grid-item {
+  background: url(/assets/images/committee_thumbs/scrt.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(8) .grid-item:after {
+  content: "Special convention on religion and terror";
+}
+
+#committees a:nth-child(9)  .grid-item {
+  background: url(/assets/images/committee_thumbs/specpol.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(9) .grid-item:after {
+  content: "special political and decolonization committee";
+}
+
+#committees a:nth-child(10)  .grid-item {
+  background: url(/assets/images/committee_thumbs/third-reich.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(10) .grid-item:after {
+  content: "The Third Reich";
+}
+
+#committees a:nth-child(11)  .grid-item {
+  background: url(/assets/images/committee_thumbs/unhrc.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(11) .grid-item:after {
+  content: "united nations human rights council";
+}
+
+#committees a:nth-child(12) .grid-item {
+  background: url(/assets/images/committee_thumbs/unodc.jpg) center;
+  background-size: cover;
+}
+
+#committees a:nth-child(12) .grid-item:after {
+  content: "united nations office on drugs and crime";
 }
 
 /**
