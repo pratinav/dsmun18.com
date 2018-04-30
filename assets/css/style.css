@@ -65,6 +65,12 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  /*font-weight: 600;*/
+  font-size: 1.25em;
+  text-align: center;
+}
+
 h3 {
   font-family: "Montserrat", "Roboto", "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -423,6 +429,7 @@ html#Home, html#Home body {
 
 .landing .hero-intro h1 {
   line-height: 1.1;
+  margin-bottom: 0.3em;
 }
 
 blockquote {
