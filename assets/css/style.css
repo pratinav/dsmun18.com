@@ -98,6 +98,10 @@ ul.naked {
   list-style-type: none;
 }
 
+ul.schedule {
+  margin-bottom: 2em;
+}
+
 li {
   line-height: 1.45;
   margin-bottom: 1em;
