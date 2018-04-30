@@ -2,5 +2,5 @@
 permalink: /committees/unsc/
 title: United Nations Security Council
 ---
-- Framework for intervention in failed states
+- Framework for Intervention in Failed States
 - Cyber Warfare
