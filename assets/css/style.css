@@ -60,21 +60,20 @@ p {
 }
 
 h1 {
-  font-weight: 600;
   font-size: 2em;
+  font-weight: 600;
   text-align: center;
 }
 
 h2 {
-  /*font-weight: 600;*/
   font-size: 1.25em;
   text-align: center;
 }
 
 h3 {
   font-family: "Montserrat", "Roboto", "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
   font-size: 1.17em;
+  font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -113,8 +112,8 @@ li {
   color: #1086d6;
   cursor: pointer;
   display: inline-block;
-  margin-right: 0.5em;
   margin-bottom: 0.5em !important;
+  margin-right: 0.5em;
   padding: 0.65em 1.5em;
 }
 
@@ -364,8 +363,8 @@ footer {
   clear: both;
   color: white;
   padding: 5em 0;
-  width: 100%;
   position: initial;
+  width: 100%;
 }
 
 footer.anchor {
@@ -675,8 +674,8 @@ blockquote {
  */
 
 #contact form {
-  max-width: 600px;
   margin-bottom: 1em;
+  max-width: 600px;
 }
 
 #contact form input,
@@ -842,4 +841,10 @@ blockquote {
   display: block;
   font-size: 1rem;
   padding-top: 0.25rem;
+}
+
+.dates {
+  font-size: 1.25em;
+  font-weight: 600;
+  text-align: center;
 }
