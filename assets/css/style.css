@@ -848,3 +848,7 @@ blockquote {
   font-weight: 600;
   text-align: center;
 }
+
+address {
+  font-style: normal;
+}
