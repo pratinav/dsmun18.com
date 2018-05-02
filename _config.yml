@@ -1,6 +1,10 @@
 exclude: [".gitignore", "TODO.txt", "_pages/about-the-eb.html", "_pages/updates.md"]
 include: ["_pages", ".htaccess"]
+
 defaults:
   -
     values:
       layout: "comm_page"
+
+plugins:
+  - jekyll-sitemap
