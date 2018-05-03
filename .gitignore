@@ -1,2 +1,5 @@
 **/.DS_Store
 _site/
+# _pages/about_the_eb.html
+# _pages/updates.md
+_layouts/OLD_committee_page.html
