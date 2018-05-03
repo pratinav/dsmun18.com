@@ -3,6 +3,6 @@ layout: notice
 redirect-url: /#committees
 ---
 
-### Redirecting...
+# Redirecting...
 
 You are being redirected.

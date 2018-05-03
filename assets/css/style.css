@@ -59,18 +59,21 @@ p {
   margin-bottom: 1.5em;
 }
 
-h1 {
+.hero-intro {
+  text-align: center;
+}
+
+.hero-intro .heading {
   font-size: 2em;
   font-weight: 600;
   text-align: center;
 }
 
-h2 {
-  font-size: 1.25em;
-  text-align: center;
+.dates {
+  margin-top: 9.6px;
 }
 
-h3 {
+h1 {
   font-family: "Montserrat", "Roboto", "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.17em;
   font-weight: bold;
@@ -78,7 +81,7 @@ h3 {
   text-transform: uppercase;
 }
 
-h3::after {
+h1::after {
   border: 1px solid #1086d6;
   border-style: inset;
   content: '';
@@ -359,8 +362,6 @@ nav a {
 
 footer {
   background: #222222;
-  bottom: 0;
-  clear: both;
   color: white;
   padding: 5em 0;
   position: initial;
@@ -851,4 +852,17 @@ blockquote {
 
 address {
   font-style: normal;
+}
+
+.gallery {
+  background: #eeeeee;
+}
+
+.gallery-cell {
+  margin-right: 10px;
+  width: 100%;
+}
+
+.gallery-cell img {
+  width: 100%;
 }

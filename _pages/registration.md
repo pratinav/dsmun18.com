@@ -3,7 +3,7 @@ permalink: /registration/
 title: Registration
 layout: notice
 ---
-<h3>Registration</h3>
+<h1>Registration</h1>
 
 All participating schools and all schools wanting to participate must submit the forms by the <time datetime="2018-05-30">30th May, 2018</time>.
 
