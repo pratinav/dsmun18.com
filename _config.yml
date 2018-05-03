@@ -6,5 +6,7 @@ defaults:
     values:
       layout: "comm_page"
 
+encoding: utf-8
+
 plugins:
   - jekyll-sitemap

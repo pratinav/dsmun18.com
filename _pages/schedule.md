@@ -3,7 +3,7 @@ permalink: /schedule/
 title: Schedule
 layout: notice
 ---
-<h3>Schedule</h3>
+# Schedule
 <ul class="naked schedule">
   <li><b><time datetime="2018-08-17">17th August</time></b></li>
 
