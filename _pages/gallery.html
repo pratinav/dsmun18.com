@@ -5,11 +5,13 @@ title: Gallery
 description: A gallery of pictures from previous DSMUNs
 ---
 <main id="gallery" class="clear-header container panel">
-  <h3>gallery</h3>
-  <div class="grid">
+  <h1>gallery</h1>
     <!-- Only .jpg(case sensitive) images will show up -->
-    {% for image in site.static_files %}{% if image.path contains 'assets/images/gallery' and image.path contains '.jpg' %}
-    <div class="grid-item"></div>
-    {% endif %}{% endfor %}
-  </div>
+    <div class="gallery js-flickity">
+      {% for image in site.static_files %}{% if image.path contains 'assets/images/gallery' and image.path contains '.jpg' %}
+      <figure class="gallery-cell">
+        <img src="{{ image.path }}" alt="">
+      </figure>
+      {% endif %}{% endfor %}
+    </div>
 </main>

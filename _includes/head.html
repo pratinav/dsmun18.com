@@ -10,23 +10,26 @@
   <meta property="og:url" content="http://dsmun18.com{{ page.url }}">
   <meta property="og:title" content="{% if page.title != null %}{{ page.title }} &mdash; {% endif %}DSMUN 18">
   <meta property="og:site_name" content="DSMUN 18">
-  <meta property="og:image" content="{{ site.baseurl }}/assets/images/logo.png">
+  <meta property="og:image" content="/assets/images/logo.png">
   <meta property="og:description" content={% if page.description == null %} "The official website of The Doon School Model United Nations 2018" {% else %} "{{ page.description }}" {% endif %}>
 
   <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/flickity.css">
 
   <!-- favicon -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon-152x152.png">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/favicon/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/favicon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicon/favicon-16x16.png" sizes="16x16">
   <meta name="application-name" content="DSMUN 18">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="{{ site.baseurl }}/assets/favicon/mstile-144x144.png">
+  <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png">
 
   <!-- redirect -->
   {% if page.redirect-url != null %}
   <meta http-equiv="refresh" content="{% if page.redirect-wait == null %}0{% else %}{{ page.redirect-wait }}{% endif %}; url={{ page.redirect-url }}">
   {% endif %}
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
 </head>
