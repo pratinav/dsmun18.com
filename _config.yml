@@ -1,12 +1,43 @@
-exclude: [".gitignore", "TODO.txt", "_pages/about-the-eb.html", "_pages/updates.md"]
-include: ["_pages", ".htaccess"]
+encoding: utf-8
+
+exclude:
+  - .gitignore
+  - TODO.txt
+  - _pages/about-the-eb.html
+  - _pages/updates.md
+  - Gemfile
+  - Gemfile.lock
+
+include:
+  - _pages
+  - .htaccess
+
+collections:
+  committees:
+    output: true
+    permalink: /committees/:name
 
 defaults:
   -
+    scope:
+      path: ""
+      type: committees
     values:
-      layout: "comm_page"
-
-encoding: utf-8
+      layout: committee
 
 plugins:
   - jekyll-sitemap
+
+committees_list:
+  - unsc
+  - disec
+  - ecosoc
+  - eic
+  - iaea
+  - ipc
+  - ls
+  - scrt
+  - specpol
+  - third-reich
+  - unhrc
+  - unodc
