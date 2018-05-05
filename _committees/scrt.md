@@ -1,6 +1,6 @@
 ---
 title: Special Convention on Religion and Terror
-chair: Zoravar Mehta
+chair: Zoraver Mehta
 ---
 
 Agenda:
