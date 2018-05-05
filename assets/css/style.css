@@ -1,32 +1,17 @@
-/**
- * Font declarations
- */
-
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(https://fonts.gstatic.com/s/montserrat/v10/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2)
-  format('woff2');
-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+ font-family: 'Lato';
+ font-style: normal;
+ font-weight: 900;
+ src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2) format('woff2');
+ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
-  url(https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
-  url(https://fonts.gstatic.com/s/sourcesanspro/v10/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 * {
@@ -39,7 +24,7 @@ body {
   background: url(/assets/images/bg.jpg) center fixed;
   background-size: cover;
   color: #222222;
-  font: 16px "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1em "Open Sans", "Helvetica Neue", Arial, sans-serif;
   line-height: 1;
 }
 
@@ -74,7 +59,7 @@ p {
 }
 
 h1 {
-  font-family: "Montserrat", "Roboto", "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato Black", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.17em;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -86,7 +71,7 @@ h1::after {
   border-style: inset;
   content: '';
   display: block;
-  margin: 1rem 0;
+  margin: 0.75rem 0;
   position: relative;
   width: 30px;
 }
@@ -163,7 +148,7 @@ nav ul li {
 
 nav a {
   color: white;
-  font-family: "Montserrat", "Roboto", "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato Black", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -192,7 +177,7 @@ nav a {
   transform: translateX(0);
 }
 
-@media only screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {
   .nav-toggle {
     display: inline-block;
   }
@@ -214,7 +199,7 @@ nav a {
 
   nav li a {
     display: block;
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Open Sans, "Helvetica Neue", Arial, sans-serif;
     font-size: 1em;
     letter-spacing: initial;
     margin-left: 0;
@@ -253,6 +238,18 @@ nav a {
   width: 92.5%;
 }
 
+@media screen and (max-width: 500px) {
+  .panel {
+    padding: 3em 2em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .panel {
+    padding: 2em 1em;
+  }
+}
+
 .feature:after {
   clear: both;
   content: "";
@@ -271,7 +268,7 @@ nav a {
   margin-right: 0;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .feature-item {
     margin-bottom: 1em;
     margin-left: 0;
@@ -309,14 +306,14 @@ nav a {
   width: 33%;
 }
 
-@media only screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .grid-item {
     height: 256px;
     width: 50%;
   }
 }
 
-@media only screen and (max-width: 660px) {
+@media screen and (max-width: 660px) {
   .grid-item {
     height: 256px;
     width: 100%;
@@ -329,7 +326,7 @@ nav a {
   bottom: 0;
   color: #cccfd2;
   display: flex;
-  font-family: "Montserrat", "Roboto", "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato Black", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
   justify-content: center;
@@ -366,6 +363,7 @@ footer {
   padding: 5em 0;
   position: initial;
   width: 100%;
+  line-height: normal;
 }
 
 footer.anchor {
@@ -501,6 +499,7 @@ blockquote {
 #committees a:nth-child(7)  .grid-item {
   background: url(/assets/images/committee_thumbs/ls.jpg) center;
   background-size: cover;
+  background-position: top;
 }
 
 #committees a:nth-child(7) .grid-item:after {
@@ -519,6 +518,7 @@ blockquote {
 #committees a:nth-child(9)  .grid-item {
   background: url(/assets/images/committee_thumbs/specpol.jpg) center;
   background-size: cover;
+  background-position: bottom;
 }
 
 #committees a:nth-child(9) .grid-item:after {
@@ -550,124 +550,6 @@ blockquote {
 
 #committees a:nth-child(12) .grid-item:after {
   content: "united nations office on drugs and crime";
-}
-
-/**
- * Gallery styles
- */
-
-#gallery .grid-item {
-  cursor: default;
-}
-
-#gallery .grid-item:nth-child(1) {
-  background: url(/assets/images/gallery/pic1.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(2) {
-  background: url(/assets/images/gallery/pic10.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(3) {
-  background: url(/assets/images/gallery/pic11.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(4) {
-  background: url(/assets/images/gallery/pic12.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(5) {
-  background: url(/assets/images/gallery/pic13.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(6) {
-  background: url(/assets/images/gallery/pic14.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(7) {
-  background: url(/assets/images/gallery/pic15.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(8) {
-  background: url(/assets/images/gallery/pic16.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(9) {
-  background: url(/assets/images/gallery/pic17.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(10) {
-  background: url(/assets/images/gallery/pic18.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(11) {
-  background: url(/assets/images/gallery/pic19.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(12) {
-  background: url(/assets/images/gallery/pic2.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(13) {
-  background: url(/assets/images/gallery/pic20.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(14) {
-  background: url(/assets/images/gallery/pic21.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(15) {
-  background: url(/assets/images/gallery/pic22.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(16) {
-  background: url(/assets/images/gallery/pic3.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(17) {
-  background: url(/assets/images/gallery/pic4.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(18) {
-  background: url(/assets/images/gallery/pic5.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(19) {
-  background: url(/assets/images/gallery/pic6.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(20) {
-  background: url(/assets/images/gallery/pic7.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(21) {
-  background: url(/assets/images/gallery/pic8.jpg) center;
-  background-size: cover;
-}
-
-#gallery .grid-item:nth-child(22) {
-  background: url(/assets/images/gallery/pic9.jpg) center;
-  background-size: cover;
 }
 
 /**
@@ -732,6 +614,10 @@ blockquote {
   width: auto;
 }
 
+address {
+  font-style: normal;
+}
+
 /**
  * Committee page styles
  */
@@ -772,7 +658,7 @@ blockquote {
   margin-right: 2%;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   #about_others .chair_img {
     width: 100%;
   }
@@ -788,7 +674,7 @@ blockquote {
   width: 100%;
 }
 
-@media only screen and (max-width: 416px) {
+@media screen and (max-width: 416px) {
   .chair_img {
     margin-left: 0;
   }
@@ -848,10 +734,6 @@ blockquote {
   font-size: 1.25em;
   font-weight: 600;
   text-align: center;
-}
-
-address {
-  font-style: normal;
 }
 
 .gallery {
