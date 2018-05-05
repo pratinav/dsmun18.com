@@ -360,10 +360,10 @@ nav a {
 footer {
   background: #222222;
   color: white;
+  line-height: normal;
   padding: 5em 0;
   position: initial;
   width: 100%;
-  line-height: normal;
 }
 
 footer.anchor {
@@ -442,6 +442,8 @@ blockquote {
   width: 100%;
 }
 
+/* Ideally, this should be implemented as a liquid loop that places <img<'s, rather than through css since this qualifies as content, rather than styling */
+
 #committees a:nth-child(1)  .grid-item {
   background: url(/assets/images/committee_thumbs/unsc.jpg) center;
   background-size: cover;
@@ -498,8 +500,8 @@ blockquote {
 
 #committees a:nth-child(7)  .grid-item {
   background: url(/assets/images/committee_thumbs/ls.jpg) center;
-  background-size: cover;
   background-position: top;
+  background-size: cover;
 }
 
 #committees a:nth-child(7) .grid-item:after {
@@ -517,8 +519,8 @@ blockquote {
 
 #committees a:nth-child(9)  .grid-item {
   background: url(/assets/images/committee_thumbs/specpol.jpg) center;
-  background-size: cover;
   background-position: bottom;
+  background-size: cover;
 }
 
 #committees a:nth-child(9) .grid-item:after {
@@ -643,6 +645,7 @@ address {
   margin-bottom: 1em;
   margin-left: 1em;
   max-width: 400px;
+  text-align: center;
   width: 100%;
 }
 
@@ -738,6 +741,7 @@ address {
 
 .gallery {
   background: #eeeeee;
+  max-width: 870px;
 }
 
 .gallery-cell {

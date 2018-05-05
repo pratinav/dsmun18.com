@@ -29,17 +29,8 @@ description: The official homepage of The Doon School Model United Nations 2018
 <section id="committees" class="work container panel">
   <h1>Committees</h1>
   <div class="grid">
-    <a href="{{ site.baseurl }}/committees/unsc"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/disec"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/ecosoc"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/eic"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/iaea"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/ipc"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/ls"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/scrt"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/specpol"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/third-reich"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/unhrc"><div class="grid-item"></div></a>
-    <a href="{{ site.baseurl }}/committees/unodc"><div class="grid-item"></div></a>
+    {% for committee in site.committees_list %}
+      <a href="/committees/{{ committee }}"><div class="grid-item"></div></a>
+    {% endfor %}
   </div>
 </section>
