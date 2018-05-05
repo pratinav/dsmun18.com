@@ -236,6 +236,7 @@ nav a {
   margin-top: 4em;
   padding: 4em;
   width: 92.5%;
+  overflow: auto;
 }
 
 @media screen and (max-width: 500px) {
@@ -751,4 +752,8 @@ address {
 
 .gallery-cell img {
   width: 100%;
+}
+
+.screen-reader {
+  display: none;
 }
