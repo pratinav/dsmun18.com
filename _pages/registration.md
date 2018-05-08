@@ -5,7 +5,7 @@ layout: notice
 ---
 <h1>Registration</h1>
 
-All participating schools and all schools wanting to participate must submit the forms by the <time datetime="2018-05-30">30th May, 2018</time>.
+All participating schools and all schools wanting to participate must submit the forms by the <time datetime="2018-05-30">30th of May, 2018</time>.
 
 Registration is not available for individual delegates.
 
