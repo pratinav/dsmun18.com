@@ -1,4 +1,0 @@
-TODO
-====
-- Gallery page pics
-- Home page feature-items
