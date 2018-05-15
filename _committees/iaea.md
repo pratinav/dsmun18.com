@@ -14,7 +14,7 @@ This year, the IAEA has a single agenda under which two sub-agendas will be disc
 - International nuclear disarmament safeguards
 
   - Recent developments to the Iran Nuclear Deal of 2015
-  - Solutions to the Demilitarisation of the Korean Peninsula
+  - Solutions to the Denuclearisation of the Korean Peninsula
 
 Both issues are extremely pertinent in the international arena, and I would again stress on the delegates being fully aware of their respective country stances and their roles in shaping up volatile situations on a global scale.
 
