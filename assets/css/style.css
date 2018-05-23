@@ -21,8 +21,6 @@
 }
 
 body {
-  background: url(/assets/images/bg.jpg) center fixed;
-  background-size: cover;
   color: #222222;
   font: 1em "Open Sans", "Helvetica Neue", Arial, sans-serif;
   line-height: 1;
@@ -32,6 +30,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
+}
+
+header {
+  height: 0;
 }
 
 a {
@@ -58,7 +60,7 @@ p {
   margin-top: 9.6px;
 }
 
-h1 {
+h1, h2 {
   font-family: "Lato Black", "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.17em;
   font-weight: bold;
@@ -66,7 +68,7 @@ h1 {
   text-transform: uppercase;
 }
 
-h1::after {
+h1::after, h2::after {
   border: 1px solid #1086d6;
   border-style: inset;
   content: '';
@@ -117,21 +119,13 @@ li {
   margin-top: 10em !important;
 }
 
-nav {
-  left: auto;
-  position: absolute;
-  right: 3em;
-  top: 2em;
-}
-
 nav ul {
   list-style: none;
 }
 
 nav ul li {
-  display: inline;
   line-height: inherit;
-  margin: 0;
+  margin: 1em 0;
 }
 
 .attention::after {
@@ -158,63 +152,58 @@ nav a {
 }
 
 .nav-toggle {
-  display: none;
   position: fixed;
-  right: 1em;
-  top: 2em;
+  left: 15px; top: 15px;
   z-index: 2;
-}
-
-.nav-line {
-  background: white;
-  display: block;
-  height: 2.5px;
-  margin-bottom: 4px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  background-image: url('/assets/images/hamburger.svg');
+  background-size: contain;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
 }
 
 .nav-open {
   transform: translateX(0);
 }
 
-@media screen and (max-width: 950px) {
-  .nav-toggle {
-    display: inline-block;
-  }
+.nav-toggle {
+  display: inline-block;
+}
 
-  nav {
-    background: #383838;
-    display: block;
-    height: 100%;
-    max-width: 180px;
-    padding-top: 4em;
-    position: fixed;
-    right: 0;
-    top: 0;
-    transform: translateX(100%);
-    transition: transform 200ms ease-in-out;
-    width: 100%;
-    z-index: 1;
-  }
+nav {
+  background: #383838;
+  display: block;
+  height: 100%;
+  max-width: 180px;
+  padding-top: 2em;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
+  transition: transform 200ms ease-in-out;
+  width: 100%;
+  z-index: 1;
+}
 
-  nav li a {
-    display: block;
-    font-family: Open Sans, "Helvetica Neue", Arial, sans-serif;
-    font-size: 1em;
-    letter-spacing: initial;
-    margin-left: 0;
-    padding: 1em 0 1em 1em;
-    text-transform: none;
-    transition: background 200ms ease-in-out;
-  }
+nav li a {
+  display: block;
+  font-family: Open Sans, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1em;
+  letter-spacing: initial;
+  margin-left: 0;
+  padding: 1em 0 1em 1em;
+  text-transform: none;
+  transition: background 200ms ease-in-out;
+}
 
-  nav li a:hover {
-    background: #444444
-  }
+nav li a:hover {
+  background: #444444
+}
 
-  .attention::after {
-    display: none;
-  }
+.attention::after {
+  display: none;
 }
 
 .nav-wrapper {
@@ -224,17 +213,26 @@ nav a {
 
 .logo {
   height: auto;
-  left: 2em;
+  left: 3em;
   position: absolute;
-  top: 1em;
+  top: 3.5em;
   width: 70px;
+  z-index: 2;
+}
+
+nav .logo {
+  width: 70px;
+  height: auto;
+  position: relative;
+  padding-bottom: 2em;
+  top: 2em;
+  left: 2em;
 }
 
 .panel {
   background: rgba(255, 255, 255, 0.825);
-  margin-bottom: 4em;
-  margin-top: 4em;
-  padding: 4em;
+  margin: 2em auto;
+  padding: 2em 4em;
   width: 92.5%;
   overflow: auto;
 }
@@ -377,7 +375,7 @@ footer a {
 
 footer .container {
   position: relative;
-  width: 85%;
+  width: 70%;
 }
 
 footer .social {
@@ -684,7 +682,7 @@ address {
   }
 }
 
-.chair_img figcaption {
+figcaption {
   color: gray;
   margin: 0.5em 0;
   text-align: center;
@@ -760,4 +758,18 @@ address {
 
 ul ul {
   margin-left: 2em;
+}
+
+.bckg {
+  background: url('/assets/images/bg.jpg') center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+#eb figure {
+  display: inline-block;
+  margin-right: 2.1em;
 }
