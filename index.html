@@ -1,9 +1,10 @@
 ---
-layout: index
+layout: default
 title: Home
 description: The official homepage of The Doon School Model United Nations 2018
 ---
 <section class="landing">
+  <div class="bckg"></div>
   <div class="hero-intro">
     <span class="heading">The Doon School Model United Nations</span>
     <div class="dates">
@@ -29,11 +30,18 @@ description: The official homepage of The Doon School Model United Nations 2018
   <p>Crises to keep you on your toes, unforgettable memories, interesting new people to meet and an experience worth a lifetime—DSMUN ’18 will have it all!</p>
 </section>
 
-<section id="committees" class="work container panel">
-  <h1>Committees</h1>
-  <div class="grid">
-    {% for committee in site.committees_list %}
-      <a href="/committees/{{ committee }}"><div class="grid-item"></div></a>
-    {% endfor %}
-  </div>
+<section id="eb" class="container panel">
+  <h1>About the Executive Board</h1>
+  <figure>
+    <img src="/assets/images/eb/ojk.jpg" alt="Ojas Kharabanda" title="Ojas Kharabanda">
+    <figcaption>Ojas Kharabanda, Secretary General</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/eb/saraf.jpg" alt="Ritwik Saraf" title="Ritwik Saraf">
+    <figcaption>Ritwik Saraf, President</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/eb/ranvijay.jpg" alt="Ranvijay Singh" title="Ranvijay Singh">
+    <figcaption>Ranvijay Singh, Deputy Secretary General</figcaption>
+  </figure>
 </section>
