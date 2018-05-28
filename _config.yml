@@ -3,10 +3,11 @@ encoding: utf-8
 exclude:
   - .gitignore
   - TODO.txt
-  - _pages/about-the-eb.html
-  - _pages/updates.md
+  - _pages/secretariat.md
   - Gemfile
   - Gemfile.lock
+  - dsmun18.sublime-*
+  - pre-commit
 
 include:
   - _pages

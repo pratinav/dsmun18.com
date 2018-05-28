@@ -1,9 +1,9 @@
 @font-face {
- font-family: 'Lato';
- font-style: normal;
- font-weight: 900;
- src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2) format('woff2');
- unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
@@ -22,7 +22,7 @@
 
 body {
   color: #222222;
-  font: 1em "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font: 1em 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   line-height: 1;
   background: url('/assets/images/bg.jpg') center fixed;
   background-size: cover;
@@ -67,7 +67,7 @@ p {
 }
 
 h1, h2 {
-  font-family: "Lato Black", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Lato Black', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.17em;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -148,7 +148,7 @@ nav ul li {
 
 nav a {
   color: white;
-  font-family: "Lato Black", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Lato Black', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -159,7 +159,8 @@ nav a {
 
 .nav-toggle {
   position: fixed;
-  left: 15px; top: 15px;
+  left: 15px;
+  top: 15px;
   z-index: 2;
   height: 25px;
   width: 25px;
@@ -195,7 +196,7 @@ nav {
 
 nav li a {
   display: block;
-  font-family: Open Sans, "Helvetica Neue", Arial, sans-serif;
+  font-family: Open Sans, 'Helvetica Neue', Arial, sans-serif;
   font-size: 1em;
   letter-spacing: initial;
   margin-left: 0;
@@ -205,7 +206,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background: #444444
+  background: #444444;
 }
 
 .attention::after {
@@ -261,7 +262,7 @@ nav .logo {
 
 .feature:after {
   clear: both;
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -335,7 +336,7 @@ nav .logo {
   bottom: 0;
   color: #cccfd2;
   display: flex;
-  font-family: "Lato Black", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Lato Black', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
   justify-content: center;
@@ -358,7 +359,7 @@ nav .logo {
 
 .grid:after {
   clear: both;
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -444,7 +445,7 @@ html#Home, html#Home body {
 }
 
 blockquote {
-  font-family: "Georgia", serif;
+  font-family: 'Georgia', serif;
   font-style: italic;
   margin-top: 1em;
   text-align: center;
@@ -459,7 +460,7 @@ blockquote {
 }
 
 #committees a:nth-child(1) .grid-item:after {
-  content: "united nations security council";
+  content: 'United Nations Security Council';
 }
 
 #committees a:nth-child(2)  .grid-item {
@@ -468,7 +469,7 @@ blockquote {
 }
 
 #committees a:nth-child(2) .grid-item:after {
-  content: "disarmament and international security committee";
+  content: 'Disarmament and International Security Committee';
 }
 
 #committees a:nth-child(3)  .grid-item {
@@ -477,7 +478,7 @@ blockquote {
 }
 
 #committees a:nth-child(3) .grid-item:after {
-  content: "United Nations Economic and Social Council";
+  content: 'United Nations Economic and Social Council';
 }
 
 #committees a:nth-child(4)  .grid-item {
@@ -486,7 +487,7 @@ blockquote {
 }
 
 #committees a:nth-child(4) .grid-item:after {
-  content: "Board of Control: East India Company";
+  content: 'Board of Control: East India Company';
 }
 
 #committees a:nth-child(5)  .grid-item {
@@ -495,7 +496,7 @@ blockquote {
 }
 
 #committees a:nth-child(5) .grid-item:after {
-  content: "International Atomic Energy Agency";
+  content: 'International Atomic Energy Agency';
 }
 
 #committees a:nth-child(6)  .grid-item {
@@ -504,7 +505,7 @@ blockquote {
 }
 
 #committees a:nth-child(6) .grid-item:after {
-  content: "International Press Corps";
+  content: 'International Press Corps';
 }
 
 #committees a:nth-child(7)  .grid-item {
@@ -514,7 +515,7 @@ blockquote {
 }
 
 #committees a:nth-child(7) .grid-item:after {
-  content: "Lok Sabha";
+  content: 'Lok Sabha';
 }
 
 #committees a:nth-child(8)  .grid-item {
@@ -523,7 +524,7 @@ blockquote {
 }
 
 #committees a:nth-child(8) .grid-item:after {
-  content: "Special convention on religion and terror";
+  content: 'Special Convention on Religion and Terror';
 }
 
 #committees a:nth-child(9)  .grid-item {
@@ -532,7 +533,7 @@ blockquote {
 }
 
 #committees a:nth-child(9) .grid-item:after {
-  content: "special political and decolonization committee";
+  content: 'Special Political and Decolonization Committee';
 }
 
 #committees a:nth-child(10)  .grid-item {
@@ -541,7 +542,7 @@ blockquote {
 }
 
 #committees a:nth-child(10) .grid-item:after {
-  content: "The Third Reich";
+  content: 'The Third Reich';
 }
 
 #committees a:nth-child(11)  .grid-item {
@@ -550,7 +551,7 @@ blockquote {
 }
 
 #committees a:nth-child(11) .grid-item:after {
-  content: "united nations human rights council";
+  content: 'United Nations Human Rights Council';
 }
 
 #committees a:nth-child(12) .grid-item {
@@ -559,7 +560,7 @@ blockquote {
 }
 
 #committees a:nth-child(12) .grid-item:after {
-  content: "united nations office on drugs and crime";
+  content: 'United Nations Office on Drugs and Crime';
 }
 
 /**
@@ -571,8 +572,7 @@ blockquote {
   max-width: 600px;
 }
 
-#contact form input,
-#contact form textarea {
+#contact form input, #contact form textarea {
   background: none;
   border: none;
   border-bottom: 1.5px solid #1086d6;
@@ -586,16 +586,12 @@ blockquote {
   transition: opacity 200ms;
 }
 
-#contact form input:focus,
-#contact form textarea:focus {
+#contact form input:focus, #contact form textarea:focus {
   opacity: 1;
   outline: none;
 }
 
-#contact form input:hover,
-#contact form input:active,
-#contact form textarea:hover,
-#contact form textarea:active {
+#contact form input:hover, #contact form input:active, #contact form textarea:hover, #contact form textarea:active {
   opacity: 1;
 }
 
@@ -604,7 +600,7 @@ blockquote {
   width: 47.5%;
 }
 
-#contact form input[name="name"] {
+#contact form input[name='name'] {
   margin-right: 5%;
 }
 
@@ -637,7 +633,7 @@ address {
 }
 
 #committee p + ul {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 #deputy-chairpersons {
