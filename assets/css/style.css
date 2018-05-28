@@ -217,7 +217,7 @@ nav li a:hover {
   position: absolute;
   top: 3.5em;
   width: 70px;
-  z-index: 2;
+  z-index: 1;
 }
 
 nav .logo {
@@ -518,7 +518,6 @@ blockquote {
 
 #committees a:nth-child(9)  .grid-item {
   background: url(/assets/images/committee_thumbs/specpol.jpg) center;
-  background-position: bottom;
   background-size: cover;
 }
 
