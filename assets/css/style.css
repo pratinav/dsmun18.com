@@ -780,5 +780,24 @@ ul ul {
 
 #eb figure {
   display: inline-block;
-  margin-right: 2.1em;
+  margin-right: 1em;
+}
+
+#eb figure:last-child {
+  margin-right: 0;
+}
+
+#eb {
+  max-width: none;
+  text-align: center;
+  background: rgba(214, 214, 214, 0.825);
+  margin: 2em 0;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 2em 0 4em;
+}
+
+#eb h1::after {
+  position: relative;
+  margin: 12px calc(50% - 30px);
 }
