@@ -13,8 +13,8 @@ This year, we have designed the committee to engage your collaborative and diplo
 On that note, we have selected
 
 - Resolution to the South Sudan Civil War as our agenda and
-- Establishing a framework for immediate cessation of hostility,
-- Setting up an ideal form of government and laying the groundwork for a constitution as our sub agendas.
+    - Establishing a framework for immediate cessation of hostility,
+    - Setting up an ideal form of government and laying the groundwork for a constitution as our sub agendas.
 
 The South Sudan Civil War has been raging for a while and ceasefires have been difficult to implement. A parallel can be drawn with the Rwandan genocide and you are encouraged to refer to it while deliberating, discussing and offering solutions to the conflict and the ethnic cleansing claims.
 
