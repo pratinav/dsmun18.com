@@ -24,6 +24,12 @@ body {
   color: #222222;
   font: 1em "Open Sans", "Helvetica Neue", Arial, sans-serif;
   line-height: 1;
+  background: url('/assets/images/bg.jpg') center fixed;
+  background-size: cover;
+}
+
+#Home body {
+  background: none;
 }
 
 .container {
@@ -232,9 +238,13 @@ nav .logo {
 .panel {
   background: rgba(255, 255, 255, 0.825);
   margin: 2em auto;
-  padding: 2em 4em;
+  padding: 4em;
   width: 92.5%;
   overflow: auto;
+}
+
+#Home .panel {
+  padding: 2em 4em;
 }
 
 @media screen and (max-width: 500px) {
