@@ -7,7 +7,8 @@ layout: default
   <figure class="chair_img">
     <img src="/assets/images/chairpersons/{{ page.id | remove: '/committees/' }}.jpg" alt="Mugshot of chairperson" title="{{ page.chair }}">
     <figcaption>
-      {{ page.chair }}
+      {{ page.chair }}<br>
+      <a href="mailto:chair.{% if page.email != null %}{{ page.email }}{% else %}{{ page.id | remove: '/committees/' }}{% endif %}@doonschool.com">chair.{% if page.email != null %}{{ page.email }}{% else %}{{ page.id | remove: '/committees/' }}{% endif %}@doonschool.com</a>
     </figcaption>
   </figure>
   {{ content }}
