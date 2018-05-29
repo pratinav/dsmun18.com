@@ -17,3 +17,8 @@ Finally, I hope to see you all at DSMUN in August and hope that along with havin
 
 Warm Regards,<br>
 Devang Laddha
+
+## Agenda
+
+- Cyberwarfare
+- Framework for intervention in failed states

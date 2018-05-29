@@ -20,3 +20,7 @@ Long Live the Queen!
 
 Regards,<br>
 Armaan Verma (As Lord Canning, the Governor-General of British India)
+
+## Agenda
+
+- The Sepoy Mutiny (1857)

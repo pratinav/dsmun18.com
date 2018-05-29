@@ -630,6 +630,7 @@ address {
 
 #committee li {
   margin-bottom: 0.5em;
+  margin-left: 1.25em;
 }
 
 #committee p + ul {
@@ -791,6 +792,10 @@ ul ul {
   width: 100%;
   margin-bottom: 0;
   padding: 2em 0 4em;
+}
+
+#eb figure img {
+  width: 19em;
 }
 
 #eb h1::after {

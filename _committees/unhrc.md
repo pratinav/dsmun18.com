@@ -16,3 +16,8 @@ Finally, I also expect the delegates to be well researched and have an in depth 
 
 Warm Regards,<br>
 Ratnadityasinh Chavda
+
+## Agenda
+
+- Discussion on Human Rights Violations in destabilised states
+- Solution to the ongoing Venezuelan human rights crisis
