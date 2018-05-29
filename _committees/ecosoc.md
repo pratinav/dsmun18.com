@@ -15,3 +15,8 @@ Finally, ECOSOC has the foremost principle of Sustainable development and social
 
 Best Wishes,<br>
 Pritish Dugar
+
+## Agenda
+
+- Discussing the principles of international trade
+- The viability of Carbon Credits and the Cap and Trade System

@@ -17,3 +17,7 @@ Best of luck and hope to see you soon in Chandbagh!
 Kanishkh Kanodia,<br>
 Speaker,<br>
 Lok Sabha, 2018
+
+## Agenda
+
+- Discussion on the introduction of the Uniform Civil Code
