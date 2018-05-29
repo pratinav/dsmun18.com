@@ -716,10 +716,9 @@ figcaption {
   font-family: inherit;
   font-size: 2rem;
   font-weight: 100;
-  position: absolute;
   text-align: center;
-  top: 57%;
   width: 100%;
+  margin-top: .5em;
 }
 
 #countdown > div {
