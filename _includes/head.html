@@ -31,5 +31,10 @@
   <meta http-equiv="refresh" content="{% if page.redirect-wait == null %}0{% else %}{{ page.redirect-wait }}{% endif %}; url={{ page.redirect-url }}">
   {% endif %}
 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+  <!-- scripts -->
+  {% if page.scripts != null %}
+    {% for script in page.scripts %}
+  <script src="{{ script }}"></script>
+    {% endfor %}
+  {% endif %}
 </head>
