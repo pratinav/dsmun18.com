@@ -124,7 +124,7 @@ li {
 }
 
 .clear-header {
-  margin-top: 10em !important;
+  margin-top: 12em !important;
 }
 
 nav ul {
@@ -808,6 +808,7 @@ ul ul {
   height: 300px;
   display: inline-block;
   margin-right: 2em;
+  margin-bottom: 2.5em;
 }
 
 #Secretariat figure img {
