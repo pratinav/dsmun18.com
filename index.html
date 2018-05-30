@@ -4,8 +4,9 @@ title: Home
 description: The official homepage of The Doon School Model United Nations 2018
 scripts: [/assets/js/countdown.js]
 ---
+
 <section class="landing">
-  <div class="bckg"></div>
+  <div id="bckg"></div>
   <div class="hero-intro">
     <span class="heading">The Doon School Model United Nations</span>
     <div class="dates">
@@ -51,16 +52,10 @@ scripts: [/assets/js/countdown.js]
 
 <section id="eb" class="container panel">
   <h1>The Executive Board</h1>
-  <figure>
-    <img src="/assets/images/eb/saraf.jpg" alt="Ritwik Saraf" title="Ritwik Saraf">
-    <figcaption>Ritwik Saraf, President</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/images/eb/ojk.jpg" alt="Ojas Kharabanda" title="Ojas Kharabanda">
-    <figcaption>Ojas Kharabanda, Secretary General</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/images/eb/ranvijay.jpg" alt="Ranvijay Singh" title="Ranvijay Singh">
-    <figcaption>Ranvijay Singh, Deputy Secretary General</figcaption>
-  </figure>
+
+  {% include figure.html src="/assets/images/eb/saraf.jpg" alt="Ritwik Saraf" caption="Ritwik Saraf, President" %}
+
+  {% include figure.html src="/assets/images/eb/ojk.jpg" alt="Ojas Kharabanda" caption="Ojas Kharabanda, Secretary General" %}
+
+  {% include figure.html src="/assets/images/eb/ranvijay.jpg" alt="Ranvijay Singh" caption="Ranvijay Singh, Deputy Secretary General" %}
 </section>

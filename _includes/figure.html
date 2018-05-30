@@ -1,0 +1,7 @@
+<figure {% if include.class != null %}class="{{ include.class }}"{% endif %}>
+    <img src="{{ include.src }}" alt="{% if include.alt != null %}{{ include.alt }}{% endif %}" title="{% if include.title == null %}{{ include.alt }}{% else %}{{ include.title }}{% endif %}">
+
+    {% if include.caption != null %}
+    <figcaption>{% if include.caption == null %}{{ include.alt }}{% else %}{{ include.caption }}{% endif %}</figcaption>
+    {% endif %}
+</figure>

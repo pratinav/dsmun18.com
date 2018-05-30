@@ -24,7 +24,9 @@ body {
   color: #222222;
   font: 1em 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   line-height: 1;
-  background: url('/assets/images/bg.jpg') center fixed;
+  background-image: url('/assets/images/bg.jpg');
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -444,10 +446,10 @@ html#Home, html#Home body {
   margin-bottom: 0.3em;
 }
 
-blockquote {
+.hero-intro blockquote {
   font-family: 'Georgia', serif;
   font-style: italic;
-  margin-top: 1em;
+  margin-top: 2.5em;
   text-align: center;
   width: 100%;
 }
@@ -765,7 +767,7 @@ ul ul {
   margin-left: 2em;
 }
 
-.bckg {
+#bckg {
   background: url('/assets/images/bg.jpg') center fixed;
   background-size: cover;
   width: 100%;
@@ -800,4 +802,15 @@ ul ul {
 #eb h1::after {
   position: relative;
   margin: 12px calc(50% - 30px);
+}
+
+#Secretariat figure {
+  height: 300px;
+  display: inline-block;
+  margin-right: 2em;
+}
+
+#Secretariat figure img {
+  height: 300px;
+  display: inline-block;
 }

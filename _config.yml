@@ -3,7 +3,6 @@ encoding: utf-8
 exclude:
   - .gitignore
   - TODO.txt
-  - _pages/secretariat.md
   - Gemfile
   - Gemfile.lock
   - dsmun18.sublime-*
