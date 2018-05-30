@@ -15,6 +15,7 @@ The Third Reich is a Historical Constant Crisis Committee (HCCC) which will chal
 As for committee, I expect delegates to understand that research is paramount and they must be well versed with the historical backdrop of Nazi Germany and the Second World War as all crises will be set in this period. I would suggest that the delegates know the other portfolios in addition to their own as certain actions are exclusive to particular members of the cabinet. Finally, I expect delegates to give the background guide a thorough read and think and act in accordance to the dynamism of the committee. I am really excited to see all of you work together to annex Great Britain, which is the agenda for this year.
 
 And so may the Reich live a thousand years! Heil!
+
 Yash Dewan (As The Führer, Adolf Hitler)
 
 ## Agenda
