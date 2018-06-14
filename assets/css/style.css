@@ -117,10 +117,12 @@ li {
 
 .buttons-list {
   list-style: none;
+  margin-top: 2em;
 }
 
 .buttons-list li {
   display: inline;
+  margin-left: 0!important;
 }
 
 .clear-header {
