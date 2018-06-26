@@ -4,13 +4,23 @@ title: Lok Sabha
 chair: Kanishkh Kanodia
 ---
 
-Greetings, Members of the Parliament and welcome to the 4th Lok Sabha Session of DSMUN, 2018!
+GGreetings Members of the Parliament and welcome to the Lok Sabha Session of DSMUN, 2018!
 
-India has often found itself at crossroads when it comes to matters pertaining to religion. More often than not, religion has been the impediment in the social and the economic progress of our nation. This year, the Sabha will discuss an issue that strikes at the core of this debate between religion and social moderation and progress: Uniform Civil Code.
+India has been a melting pot of different ethnicities, religions and languages since the medieval times. Invaders from the West, caravans and scholars from the East travelling via the Silk Road, and sailors from the Southern oceans have all contributed to a long and glorious tradition of heterogeneity and plurality in the Indian subcontinent. It is believed such intermixing created an environment of tolerance for the different cultures and ethnicities in the subcontinent. Even after gaining Independence, India has retained its stature as one of the most diverse nations on the planet, enveloping various religions, cultures and languages. However, there is a general consensus among the intellectuals and the scholars of our nation that the religious and the linguistic diversity of India are being compromised under the incumbent Modi-led Bharatiya Janta Party government. The atmosphere of our nation has transformed into one where intolerance and persecution of the minorities is on the hike.
 
-Being an issue that has been debated at various forums around the country in the past year alone, the ministers are expected to bring relevant arguments, and effective policies, backed with logic and evidence to the committee. That being said, it is equally important for the ministers to demonstrate collaborative and persuasive skills in order to reach a consensus on this contentious issue. Moreover, they are also expected to amicably solve disputes and quarrels, while maintaining an ethical code of conduct that is expected of a true parliamentarian.
+Bearing in mind this context of our nation, the Bharatiya Janta Party, in order to push forth their own agenda, has proposed the National Integration Bill, 2018 in the Lok Sabha session of DSMUN 2018. The bill contains the following there proposals:
 
-As for me, I currently pursue the IBDP curriculum in School, with a keen interest in History and Politics. Outside the classroom, I have been involved in debating quizzing, and acting. I have also taken part in MUN conferences, over a span of four years, in different capacities. In addition to this, I enjoy reading and writing on current affairs, and am an editor of few school-based publications.
+ - Implementing a Uniform Civil Code across India
+ - Making Hindi the national language of the nation
+ - Making the cow and its progeny the national symbol of India
+
+A draft of the bill can be found in the Background Guide.
+
+The committee is expected to debate on these three clauses of the bill in detail and either pass it, amend it or reject it. The members of parliament are expected to follow their parties’ stance on these issues and then accordingly either lobby the members of parliament to accept their proposal or resist the implementation of the bill. Members can also demonstrate support for individual clauses and not the bill as a whole as well. Moreover, in order to make the committee more interesting, an additional fifteen special invitees have been invited to the committee to provide us with their expert opinion.
+
+Needless to say, all members must strictly adhere to parliamentary language and courteous behaviour. A thorough research and a general understanding of the issues will be essential.
+
+As for me, I currently pursue the IBDP curriculum in School, with a keen interest in History and Politics, especially that of our nation. Outside the classroom, I have been involved in debating quizzing, and acting. I have also taken part in MUN conferences, over a span of four years, in different capacities. In addition to this, I enjoy reading and writing on current affairs, and am an editor of few school-based publications. The deputy speakers-Divyansh Nautiyal and Madhav Mahajan-will also help me run the committee. All delegates are welcome to contact us for any help.
 
 Best of luck and hope to see you soon in Chandbagh!
 
@@ -20,4 +30,4 @@ Lok Sabha, 2018
 
 ## Agenda
 
-- Discussion on the introduction of the Uniform Civil Code
+- The implementation of the National Integration Bill, 2018
