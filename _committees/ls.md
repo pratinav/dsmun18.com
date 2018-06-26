@@ -4,7 +4,7 @@ title: Lok Sabha
 chair: Kanishkh Kanodia
 ---
 
-GGreetings Members of the Parliament and welcome to the Lok Sabha Session of DSMUN, 2018!
+Greetings Members of the Parliament and welcome to the Lok Sabha Session of DSMUN, 2018!
 
 India has been a melting pot of different ethnicities, religions and languages since the medieval times. Invaders from the West, caravans and scholars from the East travelling via the Silk Road, and sailors from the Southern oceans have all contributed to a long and glorious tradition of heterogeneity and plurality in the Indian subcontinent. It is believed such intermixing created an environment of tolerance for the different cultures and ethnicities in the subcontinent. Even after gaining Independence, India has retained its stature as one of the most diverse nations on the planet, enveloping various religions, cultures and languages. However, there is a general consensus among the intellectuals and the scholars of our nation that the religious and the linguistic diversity of India are being compromised under the incumbent Modi-led Bharatiya Janta Party government. The atmosphere of our nation has transformed into one where intolerance and persecution of the minorities is on the hike.
 
