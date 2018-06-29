@@ -31,3 +31,9 @@ Lok Sabha, 2018
 ## Agenda
 
 - The implementation of the National Integration Bill, 2018
+
+<ul class="buttons-list">
+    <li>
+        <a class="btn" href="/assets/pdf/ls-rop.pdf" target="_blank" rel="noopener noreferrer">Rules Of Procedure</a>
+    </li>
+</ul>
