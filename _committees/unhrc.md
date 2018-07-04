@@ -3,6 +3,7 @@ permalink: /committees/unhrc/
 title: United Nations Human Rights Council
 chair: Ratnadityasinh Chavda
 email: hrc
+bg: true
 ---
 
 Greetings Delegates,
