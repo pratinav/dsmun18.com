@@ -2,6 +2,7 @@
 permalink: /committees/specpol/
 title: Special Political and Decolonization Committee
 chair: Shiven Dewan
+bg: true
 ---
 
 Greetings Delegates!
