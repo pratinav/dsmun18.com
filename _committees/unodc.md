@@ -3,6 +3,7 @@ permalink: /committees/unodc/
 title: United Nations Office of Drugs and Crime
 chair: Milind Khemka
 email: odc
+bg: true
 ---
 
 The United Nations Office on Drugs and Crime was established in 1997 through a merger between the United Nations Drug Control Programme, and the Centre for International Crime Prevention, and has since remained an integral body of the United Nations. It deals with various drug related conflicts such as cartels, legalisation, smuggling and even doping. We feel that this committee is of a particularly relevant nature, in light of the huge impact it currently has on the socio-economic structures of nations across the world.
