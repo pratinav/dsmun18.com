@@ -2,7 +2,6 @@
 permalink: /committees/ls/
 title: Lok Sabha
 chair: Kanishkh Kanodia
-bg: true
 ---
 
 Greetings Members of the Parliament and welcome to the Lok Sabha Session of DSMUN, 2018!
