@@ -1,7 +1,6 @@
 ---
 title: International Press Corps
 chair: Kushagra Kar
-bg: true
 ---
 
 Dear Delegates,

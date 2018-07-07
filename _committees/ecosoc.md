@@ -1,7 +1,6 @@
 ---
 title: United Nations Economic and Social Council
 chair: Pritish Dugar
-bg: true
 ---
 
 Dear Delegates,

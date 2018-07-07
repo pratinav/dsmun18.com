@@ -3,7 +3,6 @@ permalink: /committees/unsc/
 title: United Nations Security Council
 chair: Devang Laddha
 email: sc
-bg: true
 ---
 
 Dear Delegates,
