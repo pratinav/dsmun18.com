@@ -12,11 +12,9 @@ layout: default
     </figcaption>
   </figure>
   {{ content }}
-  {% if page.bg == true %}
   <ul class="buttons-list">
       <li>
           <a class="btn" href="{{ site.baseurl }}/assets/pdf/bg/{{ page.id | remove: '/committees/' }}.pdf" target="_blank" rel="noopener noreferrer">Background Guide</a>
       </li>
   </ul>
-  {% endif %}
 </section>

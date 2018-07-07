@@ -1,7 +1,6 @@
 ---
 title: Special Convention on Religion and Terror
 chair: Zoraver Mehta
-bg: true
 ---
 
 Hello delegates,

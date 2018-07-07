@@ -1,7 +1,6 @@
 ---
 title: International Atomic Energy Agency
 chair: Rajveer Singh Kochar
-bg: true
 ---
 
 Greetings Delegates!

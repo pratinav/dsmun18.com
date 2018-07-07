@@ -1,7 +1,6 @@
 ---
 title: Disarmament and International Security Committee
 chair: Aayush Chowdhry
-bg: true
 ---
 
 Hello Delegates,
