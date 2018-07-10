@@ -2,6 +2,7 @@
 title: "Board of Control: East India Company"
 chair: Armaan Verma
 email: bceic
+matrix: false
 ---
 
 Greetings Delegates!

@@ -14,7 +14,19 @@ layout: default
   {{ content }}
   <ul class="buttons-list">
       <li>
-          <a class="btn" href="{{ site.baseurl }}/assets/pdf/bg/{{ page.id | remove: '/committees/' }}.pdf" target="_blank" rel="noopener noreferrer">Background Guide</a>
+          <a class="btn" href="/assets/pdf/bg/{{ page.id | remove: '/committees/' }}.pdf" target="_blank" rel="noopener noreferrer">Background Guide</a>
       </li>
+
+      {% if page.rop == true %}
+      <li>
+          <a class="btn" href="/assets/pdf/rop/{{ page.id | remove: '/committees/' }}.pdf" target="_blank" rel="noopener noreferrer">Rules Of Procedure</a>
+      </li>
+      {% endif %}
+
+      {% if page.matrix != false %}
+      <li>
+          <a class="btn" href="/assets/pdf/matrix/{{ page.id | remove: '/committees/' }}.pdf" target="_blank" rel="noopener noreferrer">Matrix</a>
+      </li>
+      {% endif %}
   </ul>
 </section>
