@@ -2,6 +2,7 @@
 title: The Third Reich
 chair: Yash Dewan
 email: ttr
+matrix: false
 ---
 
 Guten Tag!

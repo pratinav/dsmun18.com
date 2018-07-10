@@ -2,6 +2,7 @@
 permalink: /committees/ls/
 title: Lok Sabha
 chair: Kanishkh Kanodia
+rop: true
 ---
 
 Greetings Members of the Parliament and welcome to the Lok Sabha Session of DSMUN, 2018!
@@ -31,9 +32,3 @@ Lok Sabha, 2018
 ## Agenda
 
 - The implementation of the National Integration Bill, 2018
-
-<ul class="buttons-list">
-    <li>
-        <a class="btn" href="/assets/pdf/ls-rop.pdf" target="_blank" rel="noopener noreferrer">Rules Of Procedure</a>
-    </li>
-</ul>
