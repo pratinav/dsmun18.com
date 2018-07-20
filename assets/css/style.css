@@ -808,8 +808,9 @@ ul ul {
 #Secretariat figure {
   height: 300px;
   display: inline-block;
-  margin-right: 2em;
+  margin-right:.75em;
   margin-bottom: 2.5em;
+  text-align: center;
 }
 
 #Secretariat figure img {
