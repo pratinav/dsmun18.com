@@ -1,4 +1,0 @@
-#!/bin/sh
-
-# npm i -g csscomb
-csscomb -c .csscomb.json assets/css/*.css

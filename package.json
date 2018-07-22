@@ -1,0 +1,30 @@
+{
+  "name": "dsmun18",
+  "version": "1.0.0",
+  "description": "Source for dsmun18.com",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratinav/dsmun18.com.git"
+  },
+  "author": "Pratinav Bagla & Shreyas Minocha",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/pratinav/dsmun18.com/issues"
+  },
+  "homepage": "https://github.com/pratinav/dsmun18.com#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "git-hooks": "^1.1.10",
+    "gulp": "^3.9.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-eslint": "^5.0.0",
+    "gulp-htmlcomb": "^0.2.0",
+    "gulp-imageoptim": "^1.0.9"
+  }
+}
