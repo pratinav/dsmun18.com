@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<section id="committee" class="container panel clear-header">
+<section class="container panel clear-header" id="committee">
   <h1>{{ page.title }}</h1>
   <figure class="chair_img">
-    <img src="/assets/images/chairpersons/{{ page.id | remove: '/committees/' }}.jpg" alt="Mugshot of chairperson" title="{{ page.chair }}">
+    <img src="/assets/images/chairpersons/{{ page.id | remove: '/committees/' }}.jpg" title="{{ page.chair }}" alt="Mugshot of chairperson">
     <figcaption>
       {{ page.chair }}<br>
       <a href="mailto:chair.{% if page.email != null %}{{ page.email }}{% else %}{{ page.id | remove: '/committees/' }}{% endif %}@doonschool.com">chair.{% if page.email != null %}{{ page.email }}{% else %}{{ page.id | remove: '/committees/' }}{% endif %}@doonschool.com</a>
@@ -14,18 +14,18 @@ layout: default
   {{ content }}
   <ul class="buttons-list">
       <li>
-          <a class="btn" href="/assets/pdf/bg/{{ page.id | remove: '/committees/' }}.pdf" target="_blank" rel="noopener noreferrer">Background Guide</a>
+          <a class="btn" href="/assets/pdf/bg/{{ page.id | remove: '/committees/' }}.pdf" rel="noopener noreferrer" target="_blank">Background Guide</a>
       </li>
 
       {% if page.rop == true %}
       <li>
-          <a class="btn" href="/assets/pdf/rop/{{ page.id | remove: '/committees/' }}.pdf" target="_blank" rel="noopener noreferrer">Rules Of Procedure</a>
+          <a class="btn" href="/assets/pdf/rop/{{ page.id | remove: '/committees/' }}.pdf" rel="noopener noreferrer" target="_blank">Rules Of Procedure</a>
       </li>
       {% endif %}
 
       {% if page.matrix != false %}
       <li>
-          <a class="btn" href="/assets/pdf/matrix/{{ page.id | remove: '/committees/' }}.pdf" target="_blank" rel="noopener noreferrer">Matrix</a>
+          <a class="btn" href="/assets/pdf/matrix/{{ page.id | remove: '/committees/' }}.pdf" rel="noopener noreferrer" target="_blank">Matrix</a>
       </li>
       {% endif %}
   </ul>

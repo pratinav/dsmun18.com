@@ -722,7 +722,7 @@ figcaption {
   font-weight: 100;
   text-align: center;
   width: 100%;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 #countdown > div {
@@ -808,7 +808,7 @@ ul ul {
 #Secretariat figure {
   height: 300px;
   display: inline-block;
-  margin-right:.75em;
+  margin-right: 0.75em;
   margin-bottom: 2.5em;
   text-align: center;
 }
