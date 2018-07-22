@@ -1,5 +1,5 @@
-<figure {% if include.class != null %}class="{{ include.class }}"{% endif %}>
-    <img src="{{ include.src }}" alt="{% if include.alt != null %}{{ include.alt }}{% endif %}" title="{% if include.title == null %}{{ include.alt }}{% else %}{{ include.title }}{% endif %}">
+<figure class="{{ include.class }}" endif if include.class null>
+    <img src="{{ include.src }}" title="{% if include.title == null %}{{ include.alt }}{% else %}{{ include.title }}{% endif %}" alt="{% if include.alt != null %}{{ include.alt }}{% endif %}">
 
     {% if include.caption != null %}
     <figcaption>{% if include.caption == null %}{{ include.alt }}{% else %}{{ include.caption }}{% endif %}</figcaption>
