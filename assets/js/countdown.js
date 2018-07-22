@@ -26,7 +26,7 @@ window.onload = () => {
         setInterval(updateClock, 1000);
     }
 
-    initializeCountdown('countdown', endDate);
+    initializeCountdown(endDate);
 };
 
 function zeroPad(number) {
