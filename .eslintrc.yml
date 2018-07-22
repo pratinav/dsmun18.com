@@ -1,0 +1,17 @@
+env:
+    es6: true
+    browser: true
+
+extends: 'airbnb-base'
+
+parserOptions:
+    ecmaVersion: 2018
+
+rules:
+    indent:
+        - error
+        - 4
+    indentSwitchCase: true
+    no-use-before-define: 0
+    comma-dangle: 0
+    no-param-reassign: 0
