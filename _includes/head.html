@@ -15,7 +15,6 @@
 
   <!-- styles -->
   <link type="text/css" href="/assets/css/style.css" rel="stylesheet">
-  <link type="text/css" href="/assets/css/flickity.css" rel="stylesheet">
 
   <!-- favicon -->
   <link href="/assets/favicon/apple-touch-icon-144x144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
@@ -29,6 +28,13 @@
   <!-- redirect -->
   {% if page.redirect-url != null %}
   <meta content="{% if page.redirect-wait == null %}0{% else %}{{ page.redirect-wait }}{% endif %}; url={{ page.redirect-url }}" http-equiv="refresh">
+  {% endif %}
+
+
+  {% if page.stylesheets != null %}
+    {% for stylesheet in page.stylesheets %}
+  <link type="text/css" href="{{ stylesheet }}" rel="stylesheet">
+    {% endfor %}
   {% endif %}
 
   <!-- scripts -->
