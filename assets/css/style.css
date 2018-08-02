@@ -817,3 +817,15 @@ ul ul {
   height: 300px;
   display: inline-block;
 }
+
+#Secretariat .panel {
+  text-align: center;
+}
+
+#Secretariat h1 {
+  text-align: center;
+}
+
+#Secretariat h1:after {
+  margin: 0.75em auto;
+}
