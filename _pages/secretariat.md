@@ -26,4 +26,4 @@ layout: notice
 
 {% include figure.html src="/assets/images/eb/naman.jpg" alt="Naman Khurana" caption="Naman Khurana<br>Head of Public Relations" %}
 
-{% include figure.html src="/assets/images/eb/bhatti.jpg" alt="Zoravar Bhatti" caption="Zoravar Bhatti<br>Head of Public Relations" %}
+{% include figure.html src="/assets/images/eb/bhati.jpg" alt="Zohravar Bhati" caption="Zohravar Bhati<br>Head of Public Relations" %}
