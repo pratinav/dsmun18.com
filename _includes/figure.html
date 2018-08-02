@@ -1,4 +1,4 @@
-<figure class="{{ include.class }}" endif if include.class null>
+<figure>
     <img src="{{ include.src }}" title="{% if include.title == null %}{{ include.alt }}{% else %}{{ include.title }}{% endif %}" alt="{% if include.alt != null %}{{ include.alt }}{% endif %}">
 
     {% if include.caption != null %}
