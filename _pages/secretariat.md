@@ -22,6 +22,8 @@ layout: notice
 
 {% include figure.html src="/assets/images/eb/mundi.jpg" alt="Samarvir Mundi" caption="Samarvir Mundi<br>Crisis Director" %}
 
+{% include figure.html src="/assets/images/eb/sp.jpg" alt="Shivendra Pratap" caption="Shivendra Pratap<br>Crisis Director" %}
+
 <br>
 
 {% include figure.html src="/assets/images/eb/naman.jpg" alt="Naman Khurana" caption="Naman Khurana<br>Head of Public Relations" %}
