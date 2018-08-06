@@ -51,11 +51,32 @@ scripts: [/assets/js/countdown.js]
 </section>
 
 <section class="container panel" id="eb">
-  <h1>The Executive Board</h1>
+  <h2>The Executive Board</h2>
 
-  {% include figure.html src="/assets/images/eb/saraf.jpg" alt="Ritwik Saraf" caption="Ritwik Saraf, President" %}
+  {%
+    include figure.html
+    src="/assets/images/eb/saraf.jpg"
+    alt="Ritwik Saraf"
+    caption="Ritwik Saraf, President"
+    button-link="/addresses/president"
+    button-title="President's Address"
+  %}
 
-  {% include figure.html src="/assets/images/eb/ojk.jpg" alt="Ojas Kharabanda" caption="Ojas Kharabanda, Secretary General" %}
+  {%
+    include figure.html
+    src="/assets/images/eb/ojk.jpg"
+    alt="Ojas Kharabanda"
+    caption="Ojas Kharabanda, Secretary General"
+    button-link="/addresses/sec-gen"
+    button-title="Secretary General's Address"
+  %}
 
-  {% include figure.html src="/assets/images/eb/ranvijay.jpg" alt="Ranvijay Singh" caption="Ranvijay Singh, Deputy Secretary General" %}
+  {%
+    include figure.html
+    src="/assets/images/eb/ranvijay.jpg"
+    alt="Ranvijay Singh"
+    caption="Ranvijay Singh, Deputy Secretary General"
+    button-link="/addresses/dep-sec-gen"
+    button-title="Deputy Secretary General's Address"
+  %}
 </section>

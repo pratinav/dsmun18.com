@@ -4,4 +4,8 @@
     {% if include.caption != null %}
     <figcaption>{% if include.caption == null %}{{ include.alt }}{% else %}{{ include.caption }}{% endif %}</figcaption>
     {% endif %}
+
+    {% if include.button-link != null && include.button-title != null %}
+    <a class="btn" href="{{ include.button-link }}">{{ include.button-title }}</a>
+    {% endif %}
 </figure>
