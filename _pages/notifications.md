@@ -7,6 +7,6 @@ layout: notice
 # Notifications
 
 - All position papers must be submitted by <time datetime="2018-08-03">3rd August 2018</time>.
+- Delegates are requested to carry umbrellas due to the weather in Dehradun.
 
-<br>
 <br>
