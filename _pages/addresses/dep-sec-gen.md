@@ -6,6 +6,8 @@ layout: notice
 
 # Deputy Secretary General's Address
 
+Dear Delegates,
+
 As the Deputy Secretary General, it is my honour and privilege to welcome you all to the 12th Doon School Model United Nations Conference. DSMUN has grown exponentially each year and we hope to build on this legacy with this years’s conference.
 
 Our world is now in a phase of transition. With conflicts evolving in nature, political statuses changing radically, and diplomatic alliances restructuring, a new world order is being forged right before us. In times such as these, an activity such as MUN becomes all the more important. Informed, analytical and discerning individuals are the need of the hour, and MUNs greatly help in shaping such individuals.
