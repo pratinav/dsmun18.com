@@ -138,7 +138,7 @@ nav ul li {
   margin: 0.75em 0;
 }
 
-.attention::after {
+a.attention::after {
   background: red;
   border-radius: 50%;
   content: '';
@@ -211,10 +211,6 @@ nav li a {
 
 nav li a:hover {
   background: #444444;
-}
-
-.attention::after {
-  display: none;
 }
 
 .nav-wrapper {
