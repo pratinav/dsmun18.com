@@ -38,9 +38,9 @@ LOCAL SCHOOL REGISTRATIONS: Registration for all Schools from Dehra Dun and Muss
     - Please note that delegates are only allowed to access the internet during breaks and unmoderated caucuses.
     - No delegate is allowed to use the internet during formal debate.
     - They can access their research which they have saved from before the conference.
-    - Failing to keep up with these guidelines would result in the entire delegation being for the Best Delegation Trophy.
+    - Failing to keep up with these guidelines would result in the entire delegation being disqualified for the Best Delegation Trophy.
 
-4. DELEGATE DINNER AND SOCIAL ON SATURDAY, 18TH OF AUG: As in the previous years, there will be a delegate dinner and Social on Saturday. Students may wish to carry 'appropriate' clothes for this.
+4. DELEGATE DINNER AND SOCIAL ON SATURDAY, 18TH OF AUG: As in the previous years, there will be a delegate dinner and Social on Saturday. Students may wish to carry appropriate clothes for this.
 
     The Delegate Dinner and Dance will commence at 7:15 pm. Hence, on Saturday (Day 2), committees will wrap up at 4:30 pm, post which out—station delegates will be dropped back to their Hotels for freshening up and change. They will then be brought back to School at 7:00 pm.
 
