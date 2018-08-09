@@ -826,3 +826,7 @@ ul ul {
 #Secretariat h1:after {
   margin: 0.75em auto;
 }
+
+#Notifications ol ul {
+  margin-left: 3em;
+}
