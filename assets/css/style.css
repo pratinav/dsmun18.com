@@ -796,7 +796,7 @@ ul ul {
   width: 19em;
 }
 
-#eb h1::after {
+#eb h2::after {
   position: relative;
   margin: 12px calc(50% - 30px);
 }
