@@ -64,3 +64,11 @@ Local Schools may wish to go back. In case that is inconvenient/impractical, app
 Looking forward to seeing you all at DSMUN 18!
 
 Facebook Groups have been set up for each of the twelve committees. Delegates are requested to check the DSMUN Facebook page for them, and join them as committee related information will be shared on these groups from now onwards.
+
+Warm Regards,
+
+Mohit Sinha
+
+Master-in-Charge, DSMUN
+
+The Doon School
