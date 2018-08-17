@@ -10,11 +10,17 @@ stylesheets: [/assets/css/flickity.css]
 <main class="clear-header container panel" id="gallery">
   <h1>gallery</h1>
     <!-- Only .jpg(case sensitive) images will show up -->
-    <div class="gallery js-flickity">
-      {% for image in site.static_files %}{% if image.path contains 'assets/images/gallery' and image.path contains '.jpg' %}
-      <figure class="gallery-cell">
-        <img src="{{ image.path }}" alt>
-      </figure>
-      {% endif %}{% endfor %}
-    </div>
+  <div class="gallery js-flickity">
+    {% for image in site.static_files %}{% if image.path contains 'assets/images/gallery' and image.path contains '.jpg' %}
+    <figure class="gallery-cell">
+      <img src="{{ image.path }}" alt>
+    </figure>
+    {% endif %}{% endfor %}
+  </div>
+
+  <br><br><br>
+
+  <p align="center">For pictures of DSMUN18, check
+    <a href="//drive.google.com/drive/folders/1GBQ8zO_1mb2m4-YaBY2KJmcvyEAFEFrX">the folder on Google Drive</a>
+  </p>
 </main>
