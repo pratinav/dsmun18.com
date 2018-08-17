@@ -188,6 +188,7 @@ nav {
   display: block;
   height: 100%;
   max-width: 200px;
+  overflow-y: scroll;
   padding-top: 2em;
   position: fixed;
   left: 0;
